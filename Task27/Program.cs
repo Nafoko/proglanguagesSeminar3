@@ -9,9 +9,6 @@
 Console.WriteLine("Введите число ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int len = Length(num);
-Console.WriteLine($"Сумма цифр в числе {num} = {Sum(num, len)}");
-
 // 1. Определить количество символов в цифре
 int Length(int num)
 {
@@ -34,3 +31,6 @@ int Sum(int num, int len)
     }
     return sum;
 }
+
+int len = Length(num);
+Console.WriteLine($"Сумма цифр в числе {num} = {Sum(num, len)}");
