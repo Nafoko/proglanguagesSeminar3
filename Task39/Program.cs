@@ -4,8 +4,6 @@
 // [1 2 3 4 5] -> [5 4 3 2 1]
 // [6 7 3 6] -> [6 3 7 6]
 
-
-
 int[] CreateArrayRndInt(int size, int min, int max)
 {
     int[] arr = new int[size];
